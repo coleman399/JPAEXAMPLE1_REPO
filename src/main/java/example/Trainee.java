@@ -21,8 +21,7 @@ public class Trainee {
 
 	@Transient
 	private final int randomNumber = ThreadLocalRandom.current().nextInt();
-
-	// ONLY FOR JPA, SHOULDNT BE USED IN YOUR CODE
+	// ONLY FOR JPA, SHOULDN'T BE USED IN YOUR CODE
 	Trainee() {
 
 	}
